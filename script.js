@@ -23,10 +23,9 @@ btn2.addEventListener("click", function () {
   console.log(listaCognomi);
 
 //  fino a quando non trovi cognome continua a scorrere gli elementi e ad assegnargli un indice
-  while (!cognome ) {
-    var i = 0;
-    listaCognomi[i]
-    i++
+for (var i = 0; i < listaCognomi.length; i++) {
+  if (cognome == listaCognomi[i]) {
+    console.log("il cognome: " + cognome + " è in posizione:" + (i + 1) );
   }
-  console.log(listaCognomi)
+}
 })
