@@ -18,12 +18,15 @@ var btn2 = document.getElementById('btn2');
 
 
 btn2.addEventListener("click", function () {
-
+  // ordinate surnames list
   listaCognomi.sort();
   console.log(listaCognomi);
 
+//  fino a quando non trovi cognome continua a scorrere gli elementi e ad assegnargli un indice
+  while (!cognome ) {
+    var i = 0;
+    listaCognomi[i]
+    i++
+  }
+  console.log(listaCognomi)
 })
-
-// ordinate surnames list
-//
-// print ordinate surname on consolelog
